@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T20:15:04 EST" name="Suite" finished-at="2023-02-11T20:15:23 EST" duration-ms="18856">
+    <groups>
+    </groups>
+    <test started-at="2023-02-11T20:15:04 EST" name="Test" finished-at="2023-02-11T20:15:23 EST" duration-ms="18856">
+      <class name="tests.smokeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.smokeTest@6d366c9b]" started-at="2023-02-11T20:15:04 EST" name="setUp" finished-at="2023-02-11T20:15:06 EST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_001()[pri:0, instance:tests.smokeTest@6d366c9b]" started-at="2023-02-11T20:15:06 EST" name="Test_001" finished-at="2023-02-11T20:15:17 EST" duration-ms="11058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_001 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.smokeTest@6d366c9b]" started-at="2023-02-11T20:15:17 EST" name="tearDown" finished-at="2023-02-11T20:15:23 EST" duration-ms="5755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_001 status=SUCCESS method=smokeTest.Test_001()[pri:0, instance:tests.smokeTest@6d366c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.smokeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
